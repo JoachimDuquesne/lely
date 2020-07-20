@@ -1,0 +1,238 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Define to 1 if you have the <bluetooth/bluetooth.h> header file. */
+#mesondefine HAVE_BLUETOOTH_BLUETOOTH_H
+
+/* Define to 1 if you have the <bluetooth/rfcomm.h> header file. */
+#mesondefine HAVE_BLUETOOTH_RFCOMM_H
+
+/* Define to 1 if you have the <cantype.h> header file. */
+#mesondefine HAVE_CANTYPE_H
+
+/* Define to 1 if CAN_RAW_FD_FRAMES is defined. */
+#mesondefine HAVE_CAN_RAW_FD_FRAMES
+
+/* define if the compiler supports basic C++11 syntax */
+#mesondefine HAVE_CXX11
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#mesondefine HAVE_DLFCN_H
+
+/* Define to 1 if you have the <ifaddrs.h> header file. */
+#mesondefine HAVE_IFADDRS_H
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#mesondefine HAVE_INTTYPES_H
+
+/* Define to 1 if you have the <linux/can/error.h> header file. */
+#mesondefine HAVE_LINUX_CAN_ERROR_H
+
+/* Define to 1 if you have the <linux/can.h> header file. */
+#mesondefine HAVE_LINUX_CAN_H
+
+/* Define to 1 if you have the <linux/can/netlink.h> header file. */
+#mesondefine HAVE_LINUX_CAN_NETLINK_H
+
+/* Define to 1 if you have the <linux/can/raw.h> header file. */
+#mesondefine HAVE_LINUX_CAN_RAW_H
+
+/* Define to 1 if you have the <linux/rtnetlink.h> header file. */
+#mesondefine HAVE_LINUX_RTNETLINK_H
+
+/* Define to 1 if you have the <memory.h> header file. */
+#mesondefine HAVE_MEMORY_H
+
+/* Have PTHREAD_PRIO_INHERIT. */
+#mesondefine HAVE_PTHREAD_PRIO_INHERIT
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#mesondefine HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#mesondefine HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#mesondefine HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#mesondefine HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/epoll.h> header file. */
+#mesondefine HAVE_SYS_EPOLL_H
+
+/* Define to 1 if you have the <sys/ioctl.h> header file. */
+#mesondefine HAVE_SYS_IOCTL_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#mesondefine HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#mesondefine HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#mesondefine HAVE_UNISTD_H
+
+/* Define to 1 if you have the IXXAT VCI SDK. */
+#mesondefine LELY_HAVE_IXXAT
+
+/* Define to 1 if you have SocketCAN. */
+#mesondefine LELY_HAVE_SOCKET_CAN
+
+/* Define to 1 if you have the <valgrind/valgrind.h> header file. */
+#mesondefine LELY_HAVE_VALGRIND
+
+/* Define to 1 if you have the IXXAT VCI SDK. */
+#mesondefine LELY_HAVE_VCI
+
+/* Define to 1 if CAN FD support is disabled. */
+#mesondefine LELY_NO_CANFD
+
+/* Define to 1 if C++ CANopen application master support is disabled. */
+#mesondefine LELY_NO_COAPP_MASTER
+
+/* Define to 1 if C++ CANopen application slave support is disabled. */
+#mesondefine LELY_NO_COAPP_SLAVE
+
+/* Define to 1 if Client-SDO support is disabled. */
+#mesondefine LELY_NO_CO_CSDO
+
+/* Define to 1 if EDS/DCF support is disabled. */
+#mesondefine LELY_NO_CO_DCF
+
+/* Define to 1 if concise DCF of the application parameters is not (re)stored.
+   */
+#mesondefine LELY_NO_CO_DCF_RESTORE
+
+/* Define to 1 if emergency (EMCY) object support is disabled. */
+#mesondefine LELY_NO_CO_EMCY
+
+/* Define to 1 if gateway support is disabled. */
+#mesondefine LELY_NO_CO_GW
+
+/* Define to 1 if ASCII gateway support is disabled. */
+#mesondefine LELY_NO_CO_GW_TXT
+
+/* Define to 1 if Layer Setting Services (LSS) and protocols support is
+   disabled. */
+#mesondefine LELY_NO_CO_LSS
+
+/* Define to 1 if master support is disabled. */
+#mesondefine LELY_NO_CO_MASTER
+
+/* Define to 1 if default values are disabled in the object dictionary. */
+#mesondefine LELY_NO_CO_OBJ_DEFAULT
+
+/* Define to 1 if UploadFile/DownloadFile support is disabled for the object
+   dictionary. */
+#mesondefine LELY_NO_CO_OBJ_FILE
+
+/* Define to 1 if minimum/maximum values are disabled in the object
+   dictionary. */
+#mesondefine LELY_NO_CO_OBJ_LIMITS
+
+/* Define to 1 if names are disabled in the object dictionary. */
+#mesondefine LELY_NO_CO_OBJ_NAME
+
+/* Define to 1 if custom upload indication functions are disabled in the
+   object dictionary. */
+#mesondefine LELY_NO_CO_OBJ_UPLOAD
+
+/* Define to 1 if Receive-PDO support is disabled. */
+#mesondefine LELY_NO_CO_RPDO
+
+/* Define to 1 if static device description support is disabled. */
+#mesondefine LELY_NO_CO_SDEV
+
+/* Define to 1 if synchronization (SYNC) object support is disabled. */
+#mesondefine LELY_NO_CO_SYNC
+
+/* Define to 1 if time stamp (TIME) object support is disabled. */
+#mesondefine LELY_NO_CO_TIME
+
+/* Define to 1 if Transmit-PDO support is disabled. */
+#mesondefine LELY_NO_CO_TPDO
+
+/* Define to 1 if Wireless Transmission Media (WTM) support is disabled. */
+#mesondefine LELY_NO_CO_WTM
+
+/* Define to 1 if C++ support is disabled. */
+#mesondefine LELY_NO_CXX
+
+/* Define to 1 if daemon support is disabled. */
+#mesondefine LELY_NO_DAEMON
+
+/* Define to 1 if Realtime Extensions are disabled. */
+#mesondefine LELY_NO_RT
+
+/* Define to 1 if multithreading support is disabled. */
+#mesondefine LELY_NO_THREADS
+
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
+#mesondefine LT_OBJDIR
+
+/* Name of package */
+#mesondefine PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#mesondefine PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#mesondefine PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#mesondefine PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#mesondefine PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#mesondefine PACKAGE_URL
+
+/* Define to the version of this package. */
+#mesondefine PACKAGE_VERSION
+
+/* Define to necessary symbol if this constant uses a non-standard name on
+   your system. */
+#mesondefine PTHREAD_CREATE_JOINABLE
+
+/* Define to 1 if you have the ANSI C header files. */
+#mesondefine STDC_HEADERS
+
+/* Enable extensions on AIX 3, Interix.  */
+#ifndef _ALL_SOURCE
+#mesondefine _ALL_SOURCE
+#endif
+
+/* Enable GNU extensions on systems that have them.  */
+#ifndef _GNU_SOURCE
+#mesondefine _GNU_SOURCE
+#endif
+
+/* Enable threading extensions on Solaris.  */
+#ifndef _POSIX_PTHREAD_SEMANTICS
+#mesondefine _POSIX_PTHREAD_SEMANTICS
+#endif
+
+/* Enable extensions on HP NonStop.  */
+#ifndef _TANDEM_SOURCE
+#mesondefine _TANDEM_SOURCE
+#endif
+
+/* Enable general extensions on Solaris.  */
+#ifndef __EXTENSIONS__
+#mesondefine __EXTENSIONS__
+#endif
+
+
+/* Version number of package */
+#mesondefine VERSION
+
+/* Define to 1 if on MINIX. */
+#mesondefine _MINIX
+
+/* Define to 2 if the system does not provide POSIX.1 features except with
+   this defined. */
+#mesondefine _POSIX_1_SOURCE
+
+/* Define to 1 if you need to in order for `stat' and other things to work. */
+#mesondefine _POSIX_SOURCE
