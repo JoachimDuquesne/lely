@@ -1,0 +1,47 @@
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: obc-1: section .tbss._sig_func lma 0x4c2d6c adjusted to 0x4c2d70
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_co_emcy.c.o): in function `co_emcy_push':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/co/emcy.c:396: undefined reference to `realloc'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_co_nmt_srv.c.o): in function `co_nmt_srv_init_pdo':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/co/nmt_srv.c:230: undefined reference to `realloc'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/co/nmt_srv.c:257: undefined reference to `realloc'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_co_nmt_srv.c.o): in function `co_nmt_srv_init_sdo':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/co/nmt_srv.c:343: undefined reference to `realloc'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/co/nmt_srv.c:367: undefined reference to `realloc'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_co_obj.c.o):/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/co/obj.c:272: more undefined references to `realloc' follow
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_util_fwbuf.c.o): in function `__fwbuf_init':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/fwbuf.c:264: undefined reference to `tmpnam'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/fwbuf.c:264: undefined reference to `fopen'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_util_fwbuf.c.o): in function `fwbuf_get_pos':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/fwbuf.c:436: undefined reference to `ftell'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_util_fwbuf.c.o): in function `fwbuf_set_pos':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/fwbuf.c:477: undefined reference to `fseek'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_util_fwbuf.c.o): in function `fwbuf_commit':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/fwbuf.c:1078: undefined reference to `fflush'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/fwbuf.c:1094: undefined reference to `rename'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/fwbuf.c:1100: undefined reference to `remove'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_util_diag.c.o): in function `default_diag_at_handler':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/diag.c:224: undefined reference to `fflush'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/diag.c:231: undefined reference to `_impure_ptr'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_util_frbuf.c.o): in function `__frbuf_init':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/frbuf.c:110: undefined reference to `fopen'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_util_frbuf.c.o): in function `frbuf_get_size':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/frbuf.c:188: undefined reference to `ftell'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/frbuf.c:196: undefined reference to `fseek'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/frbuf.c:201: undefined reference to `ftell'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/frbuf.c:204: undefined reference to `fseek'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_util_membuf.c.o): in function `membuf_reserve':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/util/membuf.c:61: undefined reference to `realloc'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_can_buf.c.o): in function `can_buf_reserve':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/can/buf.c:135: undefined reference to `realloc'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_co_dev.c.o): in function `co_dev_set_name':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/co/dev.c:342: undefined reference to `realloc'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_co_dev.c.o): in function `co_dev_set_vendor_name':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/co/dev.c:372: undefined reference to `realloc'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_co_dev.c.o): in function `co_dev_set_product_name':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/co/dev.c:418: undefined reference to `realloc'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/lely-core/liblelycore.a(src_co_dev.c.o):/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/lely-core/src/co/dev.c:480: more undefined references to `realloc' follow
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: lib/picolibc/newlib/libc/libc.a(signal.c.o): in function `raise':
+/home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/picolibc/newlib/libc/signal/signal.c:118: undefined reference to `getpid'
+/usr/lib/gcc/arm-none-eabi/8.3.1/../../../arm-none-eabi/bin/ld: /home/joachim/workspace/Veoware/VEO-OBC/build-noslash-1/../lib/picolibc/newlib/libc/signal/signal.c:118: undefined reference to `kill'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
